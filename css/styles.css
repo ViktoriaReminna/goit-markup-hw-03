@@ -1,0 +1,199 @@
+:root {
+    --first-bakground-color: #FFFFFF;
+    --primary-brand-color: #4D5AE5;
+    --light-color: #F4F4FD;
+    --hov-focus-color: #404BBF;
+    --modal-overlay-color: #2E2F42;
+    --white-color: #FFFFFF;
+    --dark-color: #2E2F42;
+    --text-color: #434455;
+    --accent-color: #E7E9FC;
+    
+}
+body {
+    font-family: "Roboto", sans-serif;
+    
+    
+    background: var(--first-bakground-color);
+    color: var(--text-color);
+   }
+.list {
+    list-style: none;
+}
+
+.logo > span {
+    color: var(--primary-brand-color);
+}
+
+.link {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    }
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1, 33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+     
+/*------------ Header------------- */
+.header-logo {
+    color: var(--dark-color);
+}
+.header-link {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: var(--dark-color);
+}
+
+.address-link {
+    font-style: normal;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+}
+.header-link:hover,.header-link:focus {
+    color: var(--hov-focus-color);
+}
+
+.address-link:hover,.address-link:focus {
+    color: var(--hov-focus-color);
+}
+
+/*---------------- Hero --------------*/
+.hero {
+    background: var(--modal-overlay-color);
+}
+.header-logo {
+color: var(--dark-color);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+.hero-btn {
+    color: var(--white-color);
+    background: var(--primary-brand-color);
+}
+.hero-btn:hover {
+    background: var(--hov-focus-color);
+}
+
+/* ----------------Section Qualities--------------- */
+
+.qualities-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+        letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+.qualities-description {
+   
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,5;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+}
+/*---------------------- What are we doing-------------- */
+.work-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1,11;
+        letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+/* -----------------------Team------------------- */
+.team {
+    background: var(--light-color);
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.team-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+}
+/* -----------------footer------------- */
+.footer {
+    background: var(--modal-overlay-color);
+}
+.footer-logo {
+    color: var(--light-color);
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+/* -------------------------portfolio----------------- */
+/* --------Main--------- */
+.main-btn {
+    color: var(--primary-brand-color);
+}
+.main-btn:hover,
+.main-btn:focus {
+    background: var(--hov-focus-color);
+    color: var(--white-color);
+}
+.services-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(--modal-overlay-color);
+}
+.services-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
