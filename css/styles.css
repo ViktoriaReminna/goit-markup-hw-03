@@ -10,6 +10,22 @@
     --accent-color: #E7E9FC;
     
 }
+h1, 
+h2, 
+h3,
+h4,
+h5,
+h6,
+   p {
+    margin: 0;
+}
+ul {
+margin: 0;
+padding: 0;
+}
+img {
+    display: block;
+}
 body {
     font-family: "Roboto", sans-serif;
     
@@ -17,8 +33,14 @@ body {
     background: var(--first-bakground-color);
     color: var(--text-color);
    }
+   .container {
+    width: 1158;
+    margin 0 auto;
+    outline: 1px solid red;
+   }
 .list {
     list-style: none;
+   
 }
 
 .logo > span {
@@ -41,12 +63,14 @@ body {
     overflow: hidden;
 }
 .btn {
+   
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.04em;
     cursor: pointer;
+   
     }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -58,25 +82,46 @@ body {
     }
      
 /*------------ Header------------- */
+.header {
+    background-color: aqua;
+    
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-navigation {
+    display: flex;
+  align-items: center;
+}
+
 .header-logo {
     color: var(--dark-color);
 }
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
+}
 .header-link {
     font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1,5;
-        letter-spacing: 0.02em;
-        color: var(--dark-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
 }
 
 .address-link {
     font-style: normal;
     font-weight: 400;
-        font-size: 16px;
-        line-height: 1,5;
-        letter-spacing: 0.02em;
-        color: var(--text-color);
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 .header-link:hover,.header-link:focus {
     color: var(--hov-focus-color);
@@ -88,12 +133,15 @@ body {
 
 /*---------------- Hero --------------*/
 .hero {
-    background: var(--modal-overlay-color);
+ 
+    background-color: var(--modal-overlay-color);
+  
 }
 .header-logo {
 color: var(--dark-color);
 }
 .hero-title {
+   
     font-weight: 700;
     font-size: 56px;
     line-height: 1,07;
@@ -103,34 +151,43 @@ color: var(--dark-color);
 .hero-btn {
     color: var(--white-color);
     background: var(--primary-brand-color);
-}
+    
 .hero-btn:hover {
     background: var(--hov-focus-color);
 }
 
 /* ----------------Section Qualities--------------- */
-
+.qualities {
+   
+   
+}
 .qualities-title {
+   
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1,2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
     color: var(--dark-color);
 }
 .qualities-description {
-   
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1,5;
-        letter-spacing: 0.02em;
-        color: var(--text-color);
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 /*---------------------- What are we doing-------------- */
+.work {
+  
+  
+}
 .work-title {
+   
     font-weight: 700;
-        font-size: 36px;
-        line-height: 1,11;
-        letter-spacing: 0.02em;
+    font-size: 36px;
+    line-height: 1,11;
+    letter-spacing: 0.02em;
     color: var(--dark-color);
 }
 /* -----------------------Team------------------- */
@@ -177,6 +234,7 @@ color: var(--dark-color);
 /* --------Main--------- */
 .main-btn {
     color: var(--primary-brand-color);
+   
 }
 .main-btn:hover,
 .main-btn:focus {
